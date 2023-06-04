@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fdcc04;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    cursor: pointer;
+    margin-left: auto;
+    width: 6.5%;
+    height: 6.5%;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 65px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #fdcc04;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color :#1f1f24;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #FF6000;
+    transition: 0.2s ease-in-out;
+    transition-delay: 0.2s;
+
+}
+
+section {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.gambar {
+    width: 45%;
+    height: 45%;
+    margin-top: 50px;
+}
+
+.gambar2 {
+    width: 54%;
+    height: 45%;
+    margin-top: 50px;
+    float: right;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-family: 'comic sans ms';
+    color: #1f1f24;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #1f1f24;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tombol {
+    background-color: #1f1f24;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fdcc04;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tombol:hover {
+    background-color: black;
+    color: #F79327;
+    transition: 0.2s ease-in-out;
+    transition-delay: 0.2s;
+}
+
+.php {
+    font-family: 'comic sans ms';
+}
+
+.kalkulator {
+    display: flex;
+    flex-direction: column;
+}
+
+.desc {
+    padding: 0px 16px 0px 16px;
+    margin-bottom: 10px;
+    margin-left: 16.5%;
+    margin-right: 28%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+form {
+    width: 550px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #1f1f24;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Fira Code', sans-serif; 
+    color: #1f1f24;
+    backdrop-filter: blur(100px);
+}
+
+form h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif; 
+}
+
+form label {
+    display: flex;
+    margin-bottom: 8px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 8px;
+    width: 450px;
+    border: 1px;
+    background-color: white;
+}
+
+form select {
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 32px;
+    width: 488px;
+    border: 1px;
+    background-color: white;
+}
+
+form button[type="submit"]{
+    width: 100%;
+    height: 48px;  
+    background-color: #1f1f24;
+    color:  #fdcc04;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    border: 10px;
+    border-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Fira Code', sans-serif;
+}
+
+form button[type="submit"]:hover {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    color: #fdcc04;
+    text-align: center;
+}
+
+div input[type="radio"]{
+    font-size: small;
+    background-color: white;
+}
+
+form input[type="submit"]{
+    width: 100%;
+    height: 40px; 
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Fira Code', sans-serif;
+    background-color: white;
+}
+
+div{
+    font-size: medium;
+}
+
+strong{
+    font-size: medium;
+}
+
+.jk{
+    font-size: medium;
+}
+
+button{
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1f1f24; 
+}
+
+.hasil{
+    font-size: large;
+    color: #1f1f24;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 8px;
+    width: 450px;
+    border: 1px;
+    background-color: white;
+}
+
+.alasan {
+    margin-bottom: 20px;
+    margin-top: 25px;
+    font-size: large;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'comic sans ms';
+}
+
+.about {
+    margin-top: 25px;
+    font-size: large;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'comic sans ms';
+    margin-bottom: 50px;
+    margin-left: 29.5%;
+    margin-right: 25%;
+}
+
+.naufal {
+    font-family: "Montserrat", sans-serif;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 25px 0px 25px 0px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 80%;
+    }
+    section {
+        display: block;
+        justify-content: center;
+    }
+    section img {
+        display: block;
+        margin-left: 25%;
+        margin-right: 15%;
+    }
+    h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .kolom .deskripsi{
+        font-size: 17px;
+        text-align: center;
+    }
+    .php {
+        text-align: center;
+    }
+    .desc{
+        text-align: center;
+        font-size: 24px;
+        margin-left: 1%;
+    }
+    .gambar {
+        margin-left: 29.5%;
+        margin-right: 25%;
+    }
+    .gambar2 {
+        margin-top: 15px;
+        margin-left: 25%;
+        margin-right: 20.5%;
+        margin-bottom: 25px;
+    }
+    .about {
+        font-size: medium;
+    }
+    .naufal {
+        font-size: large;
+    }    
+}
